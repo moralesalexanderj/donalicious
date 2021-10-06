@@ -1,6 +1,6 @@
 {
   "$jason": {
-    "title":"Donalicicious Store",
+    "title": "Donalicicious Store",
     "head": {
       "styles": {
         "bold": {
@@ -38,42 +38,50 @@
           "size": 20
         }
       },
-      "sections": [{
-        "items": [{
-          "type": "label",
-          "text": "Label only item"
-        },
-          {
-            "type": "vertical",
-            "components": [{
-              "type": "image",
-              "url": "https://firebasestorage.googleapis.com/v0/b/tienda-mx.appspot.com/o/OBHKFSX1eEaNYvi1izy8zGCG1hF2%2Flogo?alt=media&token=834f0aa4-93ac-42ed-aa6a-e41473a76b7c"
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "label",
+              "text": "Label only item"
             },
-              {
-                "type": "label",
-                "text": "John"
-              },
-              {
-                "type": "label",
-                "text": "Doe"
-              }]
-          },
-          {
-            "type": "vertical",
-            "components": [{
-              "type": "image",
-              "url": "https://firebasestorage.googleapis.com/v0/b/tienda-mx.appspot.com/o/OBHKFSX1eEaNYvi1izy8zGCG1hF2%2Flogo?alt=media&token=834f0aa4-93ac-42ed-aa6a-e41473a76b7c"
+            {
+              "type": "vertical",
+              "components": [
+                {
+                  "type": "image",
+                  "url": "https://firebasestorage.googleapis.com/v0/b/tienda-mx.appspot.com/o/OBHKFSX1eEaNYvi1izy8zGCG1hF2%2Flogo?alt=media&token=834f0aa4-93ac-42ed-aa6a-e41473a76b7c"
+                },
+                {
+                  "type": "label",
+                  "text": "John"
+                },
+                {
+                  "type": "label",
+                  "text": "Doe"
+                }
+              ]
             },
-              {
-                "type": "label",
-                "text": "Mary"
-              },
-              {
-                "type": "label",
-                "text": "Jane"
-              }]
-          }]
-      }],
+            {
+              "type": "vertical",
+              "components": [
+                {
+                  "type": "image",
+                  "url": "https://firebasestorage.googleapis.com/v0/b/tienda-mx.appspot.com/o/OBHKFSX1eEaNYvi1izy8zGCG1hF2%2Flogo?alt=media&token=834f0aa4-93ac-42ed-aa6a-e41473a76b7c"
+                },
+                {
+                  "type": "label",
+                  "text": "Mary"
+                },
+                {
+                  "type": "label",
+                  "text": "Jane"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "footer": {
         "input": {
           "left": {
