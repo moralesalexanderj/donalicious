@@ -1,6 +1,7 @@
 {
   "$jason": {
     "title": "Donalicicious APP",
+    "offline": "true",
     "head": {
       "styles": {
         "bold": {
