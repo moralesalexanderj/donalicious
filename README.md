@@ -1,2 +1,2 @@
-# donalicious
-Donalicious App
+# Donalicious
+Donalicious App for Android using Jasonelle
