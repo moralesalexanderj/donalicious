@@ -1,6 +1,6 @@
 {
   "$jason": {
-    "title": "Donalicicious Store",
+    "title": "Donalicicious APP",
     "head": {
       "styles": {
         "bold": {
@@ -28,7 +28,7 @@
     },
     "body": {
       "header": {
-        "title": "Donalicious",
+        "title": "Donalicious Store",
         "menu": {
           "text": "Menú",
           "href": {
