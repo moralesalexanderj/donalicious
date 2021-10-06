@@ -97,7 +97,7 @@
               "trigger": "send"
             }
           },
-          "background": "#ffffff",
+          "background": "#ff00ff",
           "progress": "rgba(0,0,0,0)"
         }
       }
