@@ -96,10 +96,10 @@
             "action": {
               "trigger": "send"
             }
-          }
-        },
-        "background": "#ffffff",
-        "progress": "rgba(0,0,0,0)"
+          },
+          "background": "#ffffff",
+          "progress": "rgba(0,0,0,0)"
+        }
       }
     }
   }
