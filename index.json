@@ -80,6 +80,17 @@
                                 {
                                     "type": "label",
                                     "text": "Jane"
+                                },
+                                {
+                                    "type": "slider",
+                                    "name": "gauge",
+                                    "action": {
+                                        "type": "$util.banner",
+                                        "options": {
+                                            "title": "Current value",
+                                            "description": "{{$get.gauge}}"
+                                        }
+                                    }
                                 }
                             ]
                         }
