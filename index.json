@@ -48,15 +48,17 @@
             {
               "type": "label",
               "text": "Ir a la web directamente--->",
-              "action": {
-                "type": "$network.request",
-                "options": {
-                  "url": "https://github.com/moralesalexanderj/donalicious/raw/main/website.json"
-                },
-                "success": {
-                  "type": "$render"
-                }
+              "href": {
+                  "url": "https://github.com/moralesalexanderj/donalicious/raw/main/website.json"                                
               }
+            },
+            {
+                "type":"label",
+                "text":"Abrir whatsapp",
+                "href":{
+                  "url":"whatsapp://+529983070776",
+                  "view":"app"
+                }              
             },
             {
               "type": "vertical",
