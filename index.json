@@ -56,7 +56,7 @@
                 "type":"label",
                 "text":"Abrir whatsapp en 529983070776",
                 "href":{
-                  "url":"whatsapp://send?abid=529983070776&text=Hello%2C%20World!",
+                  "url":"whatsapp://send?phone=529983070776&text=Hello%2C%20World!",
                   "view":"app"
                 }              
             },
