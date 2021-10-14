@@ -1,120 +1,120 @@
 {
-    "$jason": {
-        "title": "Donalicicious APP",
-        "offline": "true",
-        "head": {
-            "styles": {
-                "bold": {
-                    "font": "HelveticaNeue-CondensedBold",
-                    "padding": "0",
-                    "size": "15"
-                },
-                "normal": {
-                    "font": "HelveticaNeue",
-                    "size": "12"
-                }
-            },
-            "actions": {
-                "$foreground": {
-                    "type": "$reload"
-                },
-                "send": {
-                    "type": "$util.alert",
-                    "options": {
-                        "title": "Donalicious",
-                        "description": "Iniciando Búsqueda de {{$get.message}} en nuestro Catálogo."
-                    }
-                },
-                "$pull": {
-                    "type": "$reload"
-                }
-            }
+  "$jason": {
+    "title": "Donalicious",
+    "offline": "true",
+    "head": {
+      "styles": {
+        "bold": {
+          "font": "HelveticaNeue-CondensedBold",
+          "padding": "0",
+          "size": "15"
         },
-        "body": {
-            "header": {
-                "title": "· Donalicious Store ·",
-                "menu": {
-                    "text": "Menú",
-                    "href": {
-                        "url": "https:/www.donalicious.com",
-                        "view": "web"
-                    },
-                    "size": 20
-                }
-            },
-            "sections": [
-                {
-                    "items": [
-                        {
-                            "type": "label",
-                            "text": "Texto descriptivo de la Tienda"
-                        },
-                        {
-                            "type": "vertical",
-                            "components": [
-                                {
-                                    "type": "image",
-                                    "url": "https://firebasestorage.googleapis.com/v0/b/tienda-mx.appspot.com/o/OBHKFSX1eEaNYvi1izy8zGCG1hF2%2Flogo?alt=media&token=834f0aa4-93ac-42ed-aa6a-e41473a76b7c"
-                                },
-                                {
-                                    "type": "label",
-                                    "text": "John"
-                                },
-                                {
-                                    "type": "label",
-                                    "text": "Doe"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "vertical",
-                            "components": [
-                                {
-                                    "type": "image",
-                                    "url": "https://firebasestorage.googleapis.com/v0/b/tienda-mx.appspot.com/o/OBHKFSX1eEaNYvi1izy8zGCG1hF2%2Flogo?alt=media&token=834f0aa4-93ac-42ed-aa6a-e41473a76b7c"
-                                },
-                                {
-                                    "type": "label",
-                                    "text": "Mary"
-                                },
-                                {
-                                    "type": "label",
-                                    "text": "Jane"
-                                },
-                                {
-                                    "type": "slider",
-                                    "name": "gauge",
-                                    "action": {
-                                        "type": "$util.banner",
-                                        "options": {
-                                            "title": "Current value",
-                                            "description": "{{$get.gauge}}"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "footer": {
-                "input": {
-                    "left": {
-                        "image": "https://firebasestorage.googleapis.com/v0/b/tienda-mx.appspot.com/o/OBHKFSX1eEaNYvi1izy8zGCG1hF2%2Flogo?alt=media&token=834f0aa4-93ac-42ed-aa6a-e41473a76b7c",
-                        "action": {
-                            "type": "$media.camera"
-                        }
-                    },
-                    "name": "message",
-                    "placeholder": "Palabra clave...",
-                    "right": {
-                        "text": "Buscar",
-                        "action": {
-                            "trigger": "send"
-                        }
-                    }
-                }
-            }
+        "normal": {
+          "font": "HelveticaNeue",
+          "size": "12"
         }
+      },
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        },
+        "send": {
+          "type": "$util.alert",
+          "options": {
+            "title": "Donalicious",
+            "description": "Iniciando Búsqueda de {{$get.message}} en nuestro Catálogo."
+          }
+        },
+        "$pull": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "title": "· Donalicious Store ·",
+        "menu": {
+          "text": "Menú",
+          "href": {
+            "url": "https:/www.donalicious.com",
+            "view": "web"
+          },
+          "size": 20
+        }
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "label",
+              "text": "Texto descriptivo de la Tienda"
+            },
+            {
+              "type": "vertical",
+              "components": [
+                {
+                  "type": "image",
+                  "url": "https://firebasestorage.googleapis.com/v0/b/tienda-mx.appspot.com/o/OBHKFSX1eEaNYvi1izy8zGCG1hF2%2Flogo?alt\u003dmedia\u0026token\u003d834f0aa4-93ac-42ed-aa6a-e41473a76b7c"
+                },
+                {
+                  "type": "label",
+                  "text": "John"
+                },
+                {
+                  "type": "label",
+                  "text": "Doe"
+                }
+              ]
+            },
+            {
+              "type": "vertical",
+              "components": [
+                {
+                  "type": "image",
+                  "url": "https://firebasestorage.googleapis.com/v0/b/tienda-mx.appspot.com/o/OBHKFSX1eEaNYvi1izy8zGCG1hF2%2Flogo?alt\u003dmedia\u0026token\u003d834f0aa4-93ac-42ed-aa6a-e41473a76b7c"
+                },
+                {
+                  "type": "label",
+                  "text": "Mary"
+                },
+                {
+                  "type": "label",
+                  "text": "Jane"
+                },
+                {
+                  "type": "slider",
+                  "name": "gauge",
+                  "action": {
+                    "type": "$util.banner",
+                    "options": {
+                      "title": "Current value",
+                      "description": "{{$get.gauge}}"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "input": {
+          "left": {
+            "image": "https://firebasestorage.googleapis.com/v0/b/tienda-mx.appspot.com/o/OBHKFSX1eEaNYvi1izy8zGCG1hF2%2Flogo?alt\u003dmedia\u0026token\u003d834f0aa4-93ac-42ed-aa6a-e41473a76b7c",
+            "action": {
+              "type": "$media.camera"
+            }
+          },
+          "name": "message",
+          "placeholder": "Palabra clave...",
+          "right": {
+            "text": "Buscar",
+            "action": {
+              "trigger": "send"
+            }
+          }
+        }
+      }
     }
+  }
 }
