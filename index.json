@@ -56,7 +56,7 @@
                 "type":"label",
                 "text":"Abrir whatsapp",
                 "href":{
-                  "url":"whatsapp://+529983070776",
+                  "url":"whatsapp://send?text=Hello%2C%20World!",
                   "view":"app"
                 }              
             },
