@@ -53,10 +53,23 @@
               }
             },
             {
+              "input": {
+                "name": "telefono",
+                "placeholder": "529983070776"
+              }
+            },
+            {
                 "type":"label",
                 "text":"Abrir whatsapp",
                 "href":{
-                  "url":"whatsapp://send?text=Hello%2C%20World!",
+                  "url":"whatsapp://send?abid={{$get.telefono}}&text=Hello%2C%20World!"",
+                  "view":"app"
+                }              
+            },            {
+                "type":"label",
+                "text":"Abrir whatsapp en 529983070776",
+                "href":{
+                  "url":"whatsapp://send?abid=529983070776&text=Hello%2C%20World!"",
                   "view":"app"
                 }              
             },
