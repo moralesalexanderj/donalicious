@@ -47,7 +47,16 @@
           "items": [
             {
               "type": "label",
-              "text": "Texto descriptivo de la Tienda"
+              "text": "Ir a la web directamente--->",
+              "action": {
+                "type": "$network.request",
+                "options": {
+                  "url": "https://github.com/moralesalexanderj/donalicious/raw/main/website.json"
+                },
+                "success": {
+                  "type": "$render"
+                }
+              }
             },
             {
               "type": "vertical",
